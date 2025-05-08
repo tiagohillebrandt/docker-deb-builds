@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:noble
 LABEL maintainer="Tiago Hillebrandt <tiago@tiagohillebrandt.com>"
 
 ENV TZ=America/Sao_Paulo
