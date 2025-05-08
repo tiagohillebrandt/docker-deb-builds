@@ -19,8 +19,6 @@ RUN apt-get update && apt-get install -yq \
     packaging-dev \
     vim
 
-RUN useradd -s /bin/bash -d /home/ubuntu/ -m -G sudo ubuntu
-
 RUN echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
 
 RUN echo "su - ubuntu" >> /root/.bashrc
